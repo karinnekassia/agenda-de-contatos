@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Telefônica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Agenda Telefônica</h1>
+
+    <form id="form-contato">
+        <div class="input-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+        </div>
+
+        <div class="input-group">
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" required>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <table id="tabela-contatos">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- As linhas serão adicionadas aqui -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
